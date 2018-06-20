@@ -3,6 +3,14 @@ Project born by intership.
 I wrote the code really ugly because i had no time to add comments and spaces.
 If anyone has doubt you can contact me.
 
+#How to install
+```bash
+git clone https://github.com/edoaxyz/image_to_hOCR.git
+cd image_to_hOCR
+sudo python3 setup.py install
+```
+
+
 # To launch
 #### From terminal
 Build.py \<OutputName\> \<OCR\> \<Language\> \<DebugMode\> \<Reset\><br>
