@@ -15,6 +15,7 @@ def create_dir(directory):
         os.makedirs(directory)
 
 create_dir('data')
+create_dir('output')
 create_dir('output/out_cropper')
 create_dir('output/out_hocr')
 
