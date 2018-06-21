@@ -6,17 +6,17 @@ import sys
 ###########################################################
 phase = 0
 ###########################################################
+
 if sys.version_info[0] != 3:
-    print("This module works only with Python 3!")
+    raise WrongPythonVersionError("This module works only with Python 3!")
 
 def create_dir(directory):
     if not os.path.exists(directory):
-           os.makedirs(directory)
+        os.makedirs(directory)
 
-def init_wdirs(): 
-    create_dir('data')
-    create_dir('output/out_cropper')
-    create_dir('output/out_hocr')
+create_dir('data')
+create_dir('output/out_cropper')
+create_dir('output/out_hocr')
 
 
 def elaborate(name, ocr = False, lang = "eng", debug = False):
