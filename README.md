@@ -58,7 +58,7 @@ For python dependencies see the requirements.txt file and/or launch in commandli
 
 ```bash
 git clone https://github.com/edoaxyz/image_to_hOCR.git
-cd pySIC
+cd image_to_hOCR
 sudo python3 setup.py install
 ```
 Put your images or scans in ```./data``` directory and test it:
