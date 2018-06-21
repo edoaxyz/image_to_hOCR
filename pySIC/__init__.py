@@ -8,7 +8,7 @@ phase = 0
 ###########################################################
 
 if sys.version_info[0] != 3:
-    raise WrongPythonVersionError("This module works only with Python 3!")
+    raise Exception("This module works only with Python 3!")
 
 def create_dir(directory):
     if not os.path.exists(directory):
